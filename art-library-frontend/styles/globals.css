@@ -1,0 +1,126 @@
+
+
+@font-face {
+  font-family: colombiaFont;
+  src: url(/public/../NunitoRegular-vmABZ.ttf);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: colombiaFont !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px !important;
+}
+
+h1.modal-title{
+  font-size: 20px !important;
+}
+
+.home-hero-image{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.gallery-image-div {
+  transition: background-color 0.5s ease;
+  background: rgba(0, 0, 0, 0);
+  z-index: 2;
+}
+
+.gallery-image-div:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.gallery-modal .ant-modal-content{
+  background: rgba(255, 255, 255, 1)
+}
+
+
+.button-shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.download-button{
+  border: none !important;
+}
+
+.hover-button:hover{
+  opacity: 0.7;
+}
+
+.gallery-navigate-button{
+  background: rgba(0, 0, 0, 1) !important;
+  color: white !important;
+  opacity: 0.6;
+  margin: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+
+}
+
+.gallery-navigate-button:hover{
+  opacity: 0.8;
+}
+
+.image-preview-ad{
+  height: 90px !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery-ad{
+  height: 90px !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.custom-footer div, .custom-footer h2, .custom-footer span {
+  color: white !important;
+}
+
+#custom-menu-home-icon{
+  margin-right: auto;
+}
+
+.ant-menu-item::after{
+  border: none !important;
+}
+
+.custom-download-checkbox-row label{
+  padding: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.custom-download-checkbox-row label.selected{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.ant-layout{
+  background: rgba(0, 0, 0, 0.02) !important;
+}
+
+.menu-home:hover{
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.menu-home:hover{
+  opacity: 0.5;
+  transition: 0.3s;
+}

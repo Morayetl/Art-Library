@@ -1,0 +1,29 @@
+.ant-layout{
+  min-height: 100vh;
+}
+
+.antd-custom-search span.ant-select-selection-search{
+  border-radius: 10px !important;
+}
+
+.antd-custom-search .ant-select-selection-search{
+  display: flex !important;
+}
+
+
+.antd-custom-search input, .antd-custom-search button{
+  height: 60px !important;
+}
+
+.antd-custom-search button{
+  width: 60px !important;
+}
+
+.antd-custom-image .ant-image{
+  width: 100%;
+  height: 300px;
+}
+
+
+
+
